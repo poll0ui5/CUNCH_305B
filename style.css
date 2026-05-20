@@ -1,0 +1,11 @@
+@media print {
+    /* On cache tout sauf la zone de résultats pour le PDF */
+    header, #formPage, #chatWindow, .fixed, button, p.text-center {
+        display: none !important;
+    }
+    #resultsPage {
+        display: block !important;
+        border: none !important;
+        shadow: none !important;
+    }
+}
